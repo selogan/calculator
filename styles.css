@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-color: #484848;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header,
+footer {
+    color: #ffffffd8;
+    padding: 20px;
+    font-weight: bold;
+}
+
+header {
+    font-size: 40px;
+}
+
+footer {
+    font-size: 20px;
+}
+
+#container {
+    height: 400px;
+    width: 350px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: #00000026 4px 4px 4px 4px;
+    padding: 4px;
+    gap: 4px;
+}
+
+#display {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 5px;
+    color: white;
+    font-size: 50px;
+    flex: 1.1;
+    background-color: #80929caf;
+    overflow: hidden;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    gap: 4px;
+    flex: 1;
+}
+
+#clear,
+#delete {
+    background-color: #5e757daf;
+    font-size: 30px;
+}
+
+button {
+    width: 100%;
+    margin: 0;
+    border: 0;
+    border-radius: 10px;
+    background-color: #484848;
+    color: white;
+    font-size: 20px;
+}
+
+#clear:hover,
+#delete:hover,
+#swap:hover,
+#mod:hover,
+button:hover {
+    background-color: #716c6c;
+}
+
+#clear:active,
+#delete:active,
+#swap:active,
+#mod:active,
+button:active {
+    background-color: #b4a9a9;
+}
+
+.operator {
+    background-color: #5e757daf;
+    font-size: 40px;
+}
